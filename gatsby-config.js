@@ -11,12 +11,6 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      resolve: "gatsby-source-wordpress-experimental",
-      options: {
-        url: "http://localhost/wordpress/graphql",
-      },
-    },
     "gatsby-plugin-sass",
     {
       resolve: `gatsby-plugin-purgecss`,
