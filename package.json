@@ -1,0 +1,44 @@
+{
+  "name": "citrix-digital",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Citrix Digital",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "optimise": "node ./scripts/optimise.js"
+  },
+  "dependencies": {
+    "bootstrap": "4.5.3",
+    "chart.js": "^2.3.0",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.10.0",
+    "gatsby-plugin-google-analytics": "^2.9.0",
+    "gatsby-plugin-manifest": "^2.10.0",
+    "gatsby-plugin-purgecss": "^5.0.0",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-sass": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.13.1",
+    "gatsby-plugin-sitemap": "^2.10.0",
+    "gatsby-source-filesystem": "^2.10.0",
+    "gatsby-source-wordpress-experimental": "^7.0.0",
+    "gatsby-transformer-sharp": "^2.11.0",
+    "jquery": "^1.9.1",
+    "perfect-scrollbar": "^1.5.0",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-script-tag": "^1.1.2",
+    "reactstrap": "^8.8.1",
+    "sass": "^1.32.4",
+    "typescript": "^4.1.2"
+  }
+}
